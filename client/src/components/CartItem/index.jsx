@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { removeFromCart, updateCartQuantity } from '../../utils/actions';
+import { removeFromCart, updateCartQuantity } from '../../redux/actions/cartActions';
 import { idbPromise } from '../../utils/helpers';
 
 const CartItem = ({ item }) => {
